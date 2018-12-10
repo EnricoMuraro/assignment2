@@ -5,19 +5,19 @@
   <property name="fileExtensions" value="java"/>
 
   <module name="TreeWalker">
-  <module name="BooleanExpressionComplexity"/>
-  <module name="CyclomaticComplexity"/>
-  <module name="LineLength"/>
-  <module name="MethodLength"/>
-  <module name="EmptyCatchBlock"/>
-  <module name="AvoidStarImport"/>
-  <module name="IllegalImport"/>
-  <module name="NeedBraces"/>
+    <module name="BooleanExpressionComplexity"/>
+    <module name="CyclomaticComplexity"/>
+    <module name="LineLength"/>
+    <module name="MethodLength"/>
+    <module name="EmptyCatchBlock"/>
+    <module name="AvoidStarImport"/>
+    <module name="IllegalImport"/>
+    <module name="NeedBraces"/>
   </module>
 
   <module name="FileTabCharacter"/>
   <module name="FileLength"/>
   <module name="Header">
-  <property name="headerFile" value="config/assignmentHeader.txt"/>
+    <property name="headerFile" value="config/assignmentHeader.txt"/>
   </module>
 </module>
