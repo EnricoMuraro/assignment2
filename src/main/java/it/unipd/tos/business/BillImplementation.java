@@ -14,7 +14,7 @@ public class BillImplementation implements RestaurantBill {
     @Override
     public double getOrderPrice(List<MenuItem> itemsOrdered) throws RestaurantBillException {
         if(itemsOrdered.size() >= 20) {
-            throw new RestaurantBillException("Più di 20 elementi nell'ordine");
+            throw new RestaurantBillException("Error. More than 20 items in the order");
         }
 
         double total = 0;
